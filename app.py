@@ -7,9 +7,9 @@ print("Calculadora de Consumo Elétrico")
 print("="*30)
 
     # Entradas de dados
-aparelho = "Geladeira"  # Exemplo de aparelho
-potencia = 100 #Watts
-horas_dia = 24 #horas por dia
+aparelho = input("Digite o nome do aparelho: ")
+potencia = int(input("Digite a potência do aparelho (Watts): "))
+horas_dia = int(input("Digite o número de horas de uso por dia: "))
 
     # Cálculo do consumo mensal (kWh)
     # Fórmula: (Watts * Horas * Dias) / 1000
